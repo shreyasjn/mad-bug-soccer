@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <title>Mad Bug Soccer</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <div class="topnav-right">
+                <a class="active" href="aboutme.html">About Me</a>
+            </div>
+        </div>
+        <div style="padding-bottom: 60px"></div>
+        <div id="userForm">
+            <form action="" class="w3-center">
+                <img src="MBS.png" class="img">
+                <p id="playerWelcome"></p>
+                <input id="userName" required maxlength="16" autocomplete="off" />
+                <div style="padding-bottom: 20px"></div>
+                <button type="submit">PLAY</button>
+            </form>
+        </div>
+        <div id="gameArea">
+            <canvas id="canvas" tabindex=0 width="640" height=480></canvas>
+            <h1 id="winning"></h1>
+        </div>
+        <div style="padding-bottom: 60px"></div>
+        <div class="footer">
+            A fun <span class="material-symbols-outlined icon"> stadia_controller </span> project by <a class="active" href="aboutme.html">Shreyas Jain</a>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.js"></script>
+        <script src="mocorgo.js"></script>
+        <script src="userInput.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
