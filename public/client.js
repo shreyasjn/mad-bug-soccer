@@ -128,12 +128,12 @@ function buildStadium() {
     new Wall(580, 80, 580, 180);
     new Wall(580, 460, 580, 360);
 
-    new Wall(50, 360, 10, 360);
+    new Wall(60, 360, 0, 360);
     new Wall(0, 360, 0, 180);
-    new Wall(10, 180, 50, 180);
-    new Wall(590, 360, 630, 360);
+    new Wall(0, 180, 60, 180);
+    new Wall(580, 360, 640, 360);
     new Wall(640, 360, 640, 180);
-    new Wall(630, 180, 590, 180);
+    new Wall(640, 180, 580, 180);
 }
 
 form.onsubmit = function (e) {
