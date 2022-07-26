@@ -68,14 +68,14 @@ button:active {
     height: auto;
 }
 
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: #000000;
     overflow: hidden;
-  }
+    position: sticky;
+    top: 0px;
+}
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
     float: left;
     color: #ffffff;
     text-align: center;
@@ -85,21 +85,19 @@ button:active {
     font-size: 30px !important;
     font-weight: bold !important;
     text-shadow: 1px 1px 0px #737373;
+}
 
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #7ed957;
     color: black;
     text-shadow: 1px 1px 0px #000000;
-  }
+}
 
-  .topnav-right {
+.topnav-right {
     float: right;
-  }
- 
-  .footer {
+}
+
+.footer {
     text-align: center;
     position: absolute;
     left: 50%;
@@ -108,17 +106,16 @@ button:active {
     margin: 0 auto;
     font-size: 15px !important;
     font-family: Consolas, Verdana, sans-serif, 'Times New Roman', Times, serif !important;
-  }
+}
 
-  .aboutme-footer{
+.aboutme-footer{
     position: relative;
-  }
-  .icon {
+}
+.icon {
     position: relative;
-    /* Adjust these values accordingly */
     top: 5px;
     left: 0px;
-  }
+}
 
 .introduction-section{
     word-wrap: break-word;
